@@ -166,6 +166,12 @@
                 /*margin: 0 4px;*/
             }
 
+            .project-holder {
+                height: 150px;
+                background-color: red;
+                margin: 10px;
+            }
+
         </style>
     </head>
     <body>
@@ -197,19 +203,19 @@
 
                         <div class="social-apps">
                             <figure>
-                                <a href="javascript:void(0);"><img src="../../master/public/images/facebook.png" alt="Facebook"/></a>
+                                <a href="javascript:void(0);"><img src="../../portfolio/public/images/facebook.png" alt="Facebook"/></a>
                             </figure>
                             <figure>
-                                <a href="javascript:void(0);"><img src="../../master/public/images/youtube.png" alt="Youtube"/></a>
+                                <a href="javascript:void(0);"><img src="../../portfolio/public/images/youtube.png" alt="Youtube"/></a>
                             </figure>
                             <figure>
-                                <a href="javascript:void(0);"><img src="../../master/public/images/linked_in.png" alt="LinkedIn"/></a>
+                                <a href="javascript:void(0);"><img src="../../portfolio/public/images/linked_in.png" alt="LinkedIn"/></a>
                             </figure>
                             <figure>
-                                <a href="javascript:void(0);"><img src="../../master/public/images/gmail.png" alt="Gmail"/></a>
+                                <a href="javascript:void(0);"><img src="../../portfolio/public/images/gmail.png" alt="Gmail"/></a>
                             </figure>
                             <figure>
-                                <a href="javascript:void(0);"><img src="../../master/public/images/skype.png" alt="Skype"/></a>
+                                <a href="javascript:void(0);"><img src="../../portfolio/public/images/skype.png" alt="Skype"/></a>
                             </figure>
                         </div>
 
@@ -238,25 +244,31 @@
                                         <div class="container-fluid">
                                             <div class="row">
                                                 <div class="col-md-4 others">
-                                                    Address
+                                                    <span style="font-size: 2em;">Address</span>
+                                                    <br/>
+                                                    Block 3 Lot 25 Phase II Hyacinth Street, Celina Royale Sudbvision, Brgy. Bayanan, Bacoor, Cavite
                                                 </div>
 
-                                                <div class="col-md-4 others">
+                                                <div class="col-md-4 others" >
                                                     <span style="font-size: 2em;">Hobby</span>
                                                     <br/>
-                                                    <ul style="text-decoration: none;">
-                                                        <li style="text-decoration: none;">Basketball</li>
-                                                        <li style="text-decoration: none;">Playing Guitar</li>
-                                                        <li style="text-decoration: none;">Code</li>
-                                                        <li style="text-decoration: none;">Eat</li>
-                                                        <li style="text-decoration: none;">Sleep</li>
-                                                        <li style="text-decoration: none;">Play Computer Games</li>
-                                                        <li style="text-decoration: none;">Travel</li>
+                                                    <ul style="list-style-type: none; display: block; padding: 0;">
+                                                        <li>Basketball</li>
+                                                        <li>Playing Guitar</li>
+                                                        <li>Code</li>
+                                                        <li>Eat</li>
+                                                        <li>Sleep</li>
+                                                        <li>Play Computer Games</li>
+                                                        <li>Travel</li>
                                                     </ul>
                                                 </div>
 
                                                 <div class="col-md-4 others">
-                                                    Others
+                                                    <span style="font-size: 2em;">Organization</span>
+                                                    <br/>
+                                                    <ul style="list-style-type: none; display: block; padding: 0;">
+                                                        <li>Junior Philippine Society(JPCS)</li>
+                                                    </ul>
                                                 </div>
                                             </div>
                                         </div>
@@ -266,7 +278,22 @@
                             </div>
 
 
-                            <div class="main-content" id="projects">Projects</div>
+                            <div class="main-content" id="projects">
+                                <section>
+                                    <div class="title" style="font-size: 2em;">Projects</div>
+
+                                    <div class="container-fluid">
+                                        <div class="row">
+                                            <div class="col-md-4 project-holder"></div>
+                                            <div class="col-md-4 project-holder"></div>
+                                            <div class="col-md-4 project-holder"></div>
+                                            <div class="col-md-4 project-holder"></div>
+                                            <div class="col-md-4 project-holder"></div>
+                                            <div class="col-md-4 project-holder"></div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
                             <div class="main-content" id="experience">Experience</div>
                             <div class="main-content" id="blogs">Blogs</div>
 
